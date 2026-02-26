@@ -15,3 +15,10 @@ de A e B.
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1003
 
 # Escreva sua solução abaixo
+
+a = int(input("Valor a: ")) 
+b = int(input("Valor b: "))
+
+soma = a + b 
+
+print(soma) 
