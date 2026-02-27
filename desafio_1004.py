@@ -21,5 +21,5 @@ valor2 = int(input())
 
 prod = valor1 * valor2 
 
-print("Prod= " prod) 
+print("Prod= {prod}") 
 
