@@ -19,12 +19,10 @@ de imprimir o fim de linha após o resultado, caso contrário, você receberá
 
 # Escreva sua solução abaixo
 
-A = float(input())
-B = float(input())
+A = float(input("Enter the value of A: "))
+B = float(input("Enter the value of B: "))
 
 pesoA = 3.5
 pesoB = 7.5
-
-MEDIA = (A * pesoA + B * pesoB) / (pesoA + pesoB)
-
-print(f"MEDIA = {MEDIA:.1f}")
+media = (A * pesoA + B * pesoB) / (pesoA + pesoB)
+print(f"MEDIA = {media:.1f}")
