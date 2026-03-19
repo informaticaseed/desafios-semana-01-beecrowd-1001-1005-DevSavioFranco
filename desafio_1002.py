@@ -19,10 +19,6 @@ exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla p
 
 # Escreva sua solução abaixo
 
-raio = float(input())  # leitura do valor de entrada
-pi = 3.14159
-area = pi * (raio ** 2)
-
-# saída com 4 casas decimais
-print(f"A={area:.4f}")
-
+raio = float(input("Digite o raio do círculo: "))
+area = 3.14159 * raio ** 2
+print("A área do círculo é:", f"{area:.4f}")
