@@ -10,10 +10,8 @@ você receberá "Presentation Error".
 """
 
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1001
+a = int(input("Enter a number: "))
+b = int(input("Enter another number: "))
 
-A = int(input())
-B = int(input())
-
-X = A + B
-
-print(f"X = {X}")
+c = a + b 
+print("The sum of", a, "and", b, "is", c)
