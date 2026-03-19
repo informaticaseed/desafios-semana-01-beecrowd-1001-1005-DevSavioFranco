@@ -16,9 +16,9 @@ de A e B.
 
 # Escreva sua solução abaixo
 
-a = int(input("Valor a: ")) 
-b = int(input("Valor b: "))
-
-soma = a + b 
-
-print(soma) 
+  a = int(input("Valor a: ")) 
+  b = int(input("Valor b: "))
+  
+  soma = a + b 
+  
+  print(f"SOMA A + B = {soma}") 
